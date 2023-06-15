@@ -5,7 +5,11 @@ div {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding: 8px 50px;
 }
 div > h1 {
 	color: white;
+}
+div > img {
+	object-fit: contain;
 }
